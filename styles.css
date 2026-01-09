@@ -9,7 +9,12 @@ nav{ display: flex;
     
    
 }
-a:
+a:hover{
+    background-color: aqua;
+}
+*{
+    text-decoration: none;
+}
     
 nav .navblog {
     display: flex;
@@ -48,10 +53,14 @@ div{
     text-decoration: none;
 }
 main{
-     width: auto;
-    height: 600px;
+    
     border: solid 1px #30B868;
-    background-image: url(./assets/hero-bg.png);
+  
+}
+.imgclass{
+     width: auto;
+    height: 550px;
+  background-image: url(./assets/hero-bg.png);
 }
 .hero{
     display: flex;
@@ -59,15 +68,53 @@ main{
     list-style: none;
     justify-content:center ;
     align-items: center;
-    padding:150px;
+    padding:50px;
 }
 .whitefront{
     color:white;
+    font-size: x-large;
 }
 .greenfront{
     color: #30B868;
+    font-size: x-large;
 }
  .a-right{
     text-align: center;
+    border: solid rebeccapurple
     ;
  }
+ .herobutton{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+   margin: auto;
+   
+  
+ }
+.buttons a{
+    text-decoration: none;
+
+}
+
+.buttonsb a{
+    text-decoration: none;
+}
+.hero-section-down-part{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+   
+   
+}
+.cart1 img{
+    height: 50px;
+    width: 60px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
