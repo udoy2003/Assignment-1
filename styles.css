@@ -105,6 +105,9 @@ div{
   
 
  }
+ .greenbutton div{
+    display: flex;
+ }
 .buttons a{
     text-decoration: none;
 
@@ -126,13 +129,14 @@ div{
     padding: 3px;
    
     border-radius: 5px;   
+    
      
 }
 .cartparent{
     display: flex;
 padding-top:30px;
 padding-left: 100px;
-background-color: antiquewhite;
+
 margin: 0 auto;
 padding-right: 100px;
 
@@ -157,7 +161,6 @@ padding-right: 100px;
     background: rgba(255, 255, 255, 1);
     height: 300px;
     width: 300px;
-    
     }
 .Solutionpart{
     display: flex;
