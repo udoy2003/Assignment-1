@@ -4,7 +4,7 @@ nav{ display: flex;
     width:auto;
     height: 80px;
     padding: 16px 120px;
-    border: 1px solid red;
+    
     justify-content: space-between;
     
    
@@ -33,8 +33,7 @@ div{
     height: auto;
 }
 .hi {
-    border: 1px solid;
-    ;
+   
 }
 .b{
     margin-right: 120px;
@@ -125,8 +124,10 @@ div{
 .cartparent{
     display: flex;
 padding-top:30px;
-padding-left: 200px;
-padding-bottom: 20px;
+padding-left: 100px;
+background-color: antiquewhite;
+margin: 0 auto;
+padding-right: 100px;
 
 }
 .cart1 img{
@@ -154,7 +155,7 @@ padding-bottom: 20px;
 .Solutionpart{
     display: flex;
     flex-direction:row;
-    margin: 50px 0x 110px 110px;
+    
     padding: 5px;
     gap: 200px;
     height: 550px;
@@ -168,23 +169,21 @@ padding-bottom: 20px;
 .thesoltion{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-   
-  height: 370;
-    width: 550PX;
-    padding-top: 150px;
-
+    gap: 10px;
+    padding: 80px;
 }
 
 .Solutionpart H6{
     color: #30B868;
+    font-weight: 500;
+    font-size: large;
 }
 .Solutionpart P{
 color:#627382;
 }
 
 
-
+/*  
 .icon-flex{
     display: flex;
     flex-direction: row;
@@ -194,7 +193,7 @@ color:#627382;
 
     
    
-}
+} */
     .icon-flex li{
       
        list-style: none;
@@ -215,7 +214,8 @@ flex-direction: column;
 
 .earlyaccess-parent{
     display: block;
-    margin: 0px;
+    margin: 25px auto;
+    padding: 20px 20px;
     max-width: 600px;
     background-color: #F7F6F2;
     border: #F7F6F2 1px;
@@ -242,28 +242,25 @@ flex-direction: column;
         text-align: center;
 
     }
-    
-    .foot img{
-        height:auto;
-        width: auto;
-       
-    }
-    .foot h3{
-        padding-right: 17px;
-        color:white;
+    footer{
+        height: 100px;
+        background-color: black;
     }
     
-
-    
-    .foot2{
+    footer div{
         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: center;
-        background-color: #000;
+        justify-content: space-between;
+        
     }
-    .foot{
-        display: flex;
-       justify-content: space-between;
-
+    footer h6{
+        font-size: medium;
+        padding-right: 100px;
+    }
+    .copyright{
+        background-color: black;
+       display: block;
+        justify-content: center;
+      
+        color: #F7F6F2;
+        
     }
